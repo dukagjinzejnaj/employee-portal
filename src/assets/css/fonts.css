@@ -1,0 +1,22 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+h1 {
+    font-size: 50px !important;
+    animation: show;
+    animation-duration: 1s;
+}
+
+h3 {
+    font-size: 22px !important;
+    font-weight: bold !important;
+    animation: show;
+    animation-duration: 1s;
+}
+
+p, a, button {
+    font-size: 16px !important;
+    animation: show;
+    animation-duration: 1s;
+}

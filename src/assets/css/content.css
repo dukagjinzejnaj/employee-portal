@@ -1,0 +1,72 @@
+/* Content */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+    background-color: rgb(233, 233, 233);
+	flex-grow: 1;
+	font-size: 24px;
+	line-height: 34px;
+}
+
+.container-md {
+    padding: 100px 0 100px 0;
+}
+
+.intro-banner {
+    text-align: center;
+    padding: 220px 0 0px 0;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../images/background-intro.jpg");
+    content: "Image by Darya Tryfanava";
+    color: rgb(255, 255, 255);
+}
+
+.pages {
+    padding: 30px 0 0 0;
+}
+
+.card-link {
+    margin-left: 0 !important;
+}
+
+form {
+    animation: show;
+    animation-duration: 1s;
+}
+
+textarea {
+    max-height: 150px;
+}
+
+.overflow-y-scroll {
+    max-height: 500px;
+}
+
+.card {
+    border: none !important;
+    border-top: 8px solid rgb(0, 55, 165) !important;
+    border-radius: 0 !important;
+    animation: show;
+    animation-duration: 1s;
+}
+
+.card-body a {
+    text-decoration: none !important;
+    color: rgb(0, 8, 69);
+    display: block;
+    margin-top: 10px;
+}
+
+#flush-collapseOne p, #flush-collapseTwo p, #flush-collapseThree p, #flush-collapseFour p, #flush-collapseFive p {
+    padding: 20px;
+}

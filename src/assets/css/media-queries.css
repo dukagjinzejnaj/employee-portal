@@ -1,0 +1,19 @@
+/* Media Queries */
+
+@media screen and (max-width: 720px) {
+    .arrow .bi.bi-arrow-up {
+        padding: 0.5em;
+    }
+
+    .intro-banner {
+        padding: 8em 0px 0px 0px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .overflow-y-scroll {
+        width: 88% !important;
+    }
+}
